@@ -1,4 +1,5 @@
-# Build error when building the library under libfree folder
+# Issues
+## Build error when building the library under libfree folder
 Detail:
 ```
 inet_ntop.c:56:1: error: conflicting types for 'inet_ntop'
