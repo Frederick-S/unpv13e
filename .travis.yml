@@ -7,4 +7,5 @@ before_script:
   - ./configure
 script:
  - cd lib && make
- - cd libfree && make
+ - cd ../libfree && make
+ - cd ../intro && make
