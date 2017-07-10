@@ -53,11 +53,11 @@ static const char *inet_ntop6(const u_char *src, char *dst, size_t size);
  *	Paul Vixie, 1996.
  */
 const char *
-my_inet_ntop(af, src, dst, size)
+inet_ntop(af, src, dst, size)
 	int af;
 	const void *src;
 	char *dst;
-	size_t size;
+	socklen_t size;
 {
 	switch (af) {
 	case AF_INET:
