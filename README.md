@@ -9,7 +9,7 @@ inet_ntop(af, src, dst, size)
 
 Here is the [solution](https://stackoverflow.com/questions/7947960/unix-network-programming-book-code-has-bugs-due-to-old-os-how-to-solve-this-or).
 
-## `daytimetcpcli` connect error: Connection refused
+## `./daytimetcpcli 127.0.0.1` connect error: Connection refused
 The daytime service might be not enabled.
 
 The following steps enable the daytime service on Ubuntu:
