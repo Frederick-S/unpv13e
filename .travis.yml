@@ -2,6 +2,8 @@ language: c
 matrix:
   include:
     - os: linux
+    - os: linux
+      dist: trusty
     - os: osx
 before_script:
   - ./configure
