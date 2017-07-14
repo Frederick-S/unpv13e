@@ -30,14 +30,15 @@ Kernel configured for up to 4 processors.
 Processor type: x86_64h (Intel x86-64h Haswell)
 Processors active: 0 1 2 3
 Primary memory available: 8.00 gigabytes
-Default processor set: 345 tasks, 1881 threads, 4 processors
-Load average: 2.16, Mach factor: 1.83
+Default processor set: 316 tasks, 1495 threads, 4 processors
+Load average: 2.24, Mach factor: 2.02
 /bin/machine           = unknown
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
 
 PATH: /Users/Frederick/bin
 PATH: /usr/local/bin
+PATH: /Users/Frederick/.cargo/bin
 PATH: /Library/Frameworks/Python.framework/Versions/3.5/bin
 PATH: /Library/Frameworks/Python.framework/Versions/2.7/bin
 PATH: /usr/local/bin
@@ -65,18 +66,18 @@ configure:1378: found /usr/bin/gcc
 configure:1388: result: gcc
 configure:1632: checking for C compiler version
 configure:1635: gcc --version </dev/null >&5
-Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/c++/4.2.1
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
 Apple LLVM version 8.1.0 (clang-802.0.42)
 Target: x86_64-apple-darwin16.6.0
 Thread model: posix
-InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 configure:1638: $? = 0
 configure:1640: gcc -v </dev/null >&5
-Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/c++/4.2.1
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
 Apple LLVM version 8.1.0 (clang-802.0.42)
 Target: x86_64-apple-darwin16.6.0
 Thread model: posix
-InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 configure:1643: $? = 0
 configure:1645: gcc -V </dev/null >&5
 clang: error: argument to '-V' is missing (expected 1 value)
@@ -1388,8 +1389,8 @@ configure:6327: checking for gethostbyname_r
 configure:6377: gcc -o conftest -g -O2 -D_REENTRANT   conftest.c -lresolv -lpthread  >&5
 Undefined symbols for architecture x86_64:
   "_gethostbyname_r", referenced from:
-      _main in conftest-8a78e9.o
-      _f in conftest-8a78e9.o
+      _main in conftest-6c08d0.o
+      _f in conftest-6c08d0.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:6380: $? = 1
